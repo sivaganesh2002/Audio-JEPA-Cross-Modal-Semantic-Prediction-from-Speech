@@ -81,23 +81,7 @@ JEPA avoids the "where to put the probability mass" problem of generative models
 
 ---
 
-## Repository Structure
 
-```
-audio-jepa/
-├── notebooks/
-│   └── Audio_JEPA_RealData.ipynb     # full interactive walkthrough
-├── src/
-│   ├── __init__.py
-│   ├── model.py   # XEncoder, Predictor, YEncoder, YDecoder, AudioJEPA
-│   ├── loss.py    # InfoNCELoss + alignment/uniformity metrics
-│   └── data.py    # LibriSpeechDataset, SyntheticDataset, collate_fn
-├── assets/
-│   └── training_results.png          # actual training curves
-├── train.py       # two-phase training entry point
-├── requirements.txt
-└── README.md
-```
 
 ---
 
